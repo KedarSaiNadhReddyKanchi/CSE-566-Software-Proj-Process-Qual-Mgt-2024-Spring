@@ -1,0 +1,23 @@
+how can i show that the above three lean wastes have been eliminated in the updated value stream
+
+To show that the three Lean wastes have been eliminated in the updated Value Stream Mapping (VSM), you would need to illustrate changes in the processes that address each type of waste. Here's how you could represent the elimination of each waste:
+
+1. **Waiting**:
+   - Introduce a new process step or modify the existing "Requirement Analysis" and "Defect Tracking and Fixing" steps to include specific time-bound communication protocols.
+   - Add visual indicators such as synchronized clocks or countdown timers to show that there is a clear timeline for each communication step.
+
+2. **Overprocessing**:
+   - Adjust the "Test Execution" step to include a defined set of criteria or a checklist that ensures only necessary tests are performed.
+   - Include a feedback loop from "Test Execution" to "Test Planning" to continuously refine the testing process based on actual needs.
+
+3. **Defects**:
+   - Implement a "Quality Assurance" step before "Test Case Creation" at TechCo to ensure that the software meets certain quality standards before being sent to TestPro.
+   - Add a "Pre-Testing Review" step where TechCo and TestPro jointly review the software to catch any potential defects early.
+
+In the updated VSM, you would visually represent these changes by:
+
+- Adding new steps or subprocesses that show the implementation of solutions to eliminate waste.
+- Using symbols or color codes to highlight the improvements in the process flow.
+- Including annotations or notes that explain how each change contributes to waste reduction.
+
+By making these adjustments to the VSM, you can clearly communicate to stakeholders how the process has been optimized to reduce or eliminate the identified Lean wastes.

@@ -1,0 +1,34 @@
+Based on the additional search results provided, here are detailed definitions for each of the 8 key techniques for measuring code portability:
+
+1. Portability Metric:
+The portability metric measures the percentage of platform-independent code compared to the total code in the application. It is calculated by taking the amount of code that is specific to a particular platform or environment, and dividing it by the total amount of code. A higher percentage of platform-independent code indicates better overall portability of the codebase.
+
+2. Comparing Performance to Optimized Implementations:
+This technique involves measuring the performance of the portable version of the code and comparing it to a well-recognized, highly optimized implementation of the same application on each target platform. The portable code's performance is then expressed as a fraction or percentage of the optimized implementation's performance. This provides a way to assess the relative performance portability compared to the best known versions.
+
+3. Roofline Performance Model:
+The roofline performance model establishes theoretical performance ceilings or "roofs" for an application based on factors like memory bandwidth and instruction-level parallelism. By analyzing where the portable code's actual performance falls relative to these roofs, you can identify the key hardware characteristics that are limiting its performance portability. The roofline model plots performance as a function of the application's arithmetic intensity (FLOPs per byte of memory access).
+
+4. Performance Portability (PP) Metric: 
+This metric, proposed by Pennycook et al., calculates the harmonic mean of the application or architectural efficiencies across a set of target platforms. The application efficiency measures how well the portable code performs compared to the best known implementation on each platform. The architectural efficiency measures how close the portable code comes to the theoretical peak performance on each platform. The harmonic mean of these efficiencies provides a single quantitative measure of the overall performance portability.
+
+5. Compiler Warning Levels:
+Using multiple compilers and setting the warning levels as high as possible helps ensure the portable code adheres to coding standards and can be compiled successfully across different platforms. Identifying and fixing any compiler warnings helps improve the overall portability of the codebase.
+
+6. Coding Standard Enforcement:
+Enforcing a consistent coding standard, such as using camelCase, PascalCase, and snake_case naming conventions, helps improve the readability and maintainability of the portable code across different environments. Adhering to best practices for modular, well-structured code also enhances portability.
+
+7. Static Code Analysis:
+Conducting static code analysis to identify and fix defects, faults, and other issues in the portable code helps ensure it functions properly across different platforms. This includes checking for things like memory leaks, race conditions, and undefined behaviors that could impact portability.
+
+8. Interdependency Measurement:
+Quantifying the number of interdependencies, or code elements that rely on each other to function properly, can indicate the modularity and reusability of the portable code. Fewer interdependencies generally mean more portable, maintainable code. Static code analysis can be used to identify these relationships between code components.
+
+In summary, these 8 techniques provide a mix of quantitative and qualitative assessments of code portability, focusing on both the characteristics of the code itself as well as its performance when executed on different target platforms.
+
+Citations:
+[1] https://performanceportability.org/perfport/measurements/
+[2] https://www.linkedin.com/advice/0/how-can-you-use-quality-assurance-metrics-improve
+[3] https://en.wikipedia.org/wiki/Performance_portability
+[4] https://www.diva-portal.org/smash/get/diva2:830050/FULLTEXT01.pdf
+[5] https://www.dcs.warwick.ac.uk/pmbs/pmbs16/PMBS16/papers/paper7.pdf

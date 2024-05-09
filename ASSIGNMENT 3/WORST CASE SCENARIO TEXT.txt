@@ -1,0 +1,51 @@
+COCOMO RESULTS for Smart Home Climate Control System (SHCCS) - WORST CASE SCENARIO
+
+MODE	: embedded
+"A" variable	: 	34.15672703200344
+"B" variable	: 	1.2
+"C" variable	: 	2.5
+"D" variable	:	0.32
+KLOC	:		85.000
+EFFORT, (in person-months)	: 7059.582
+DURATION, (in months)	:	42.614
+STAFFING, (recommended): 		165.665
+
+
+Explanation: The coefficients are set according to the project mode selected on the previous page, (as per Boehm). Note: the decimal separator is a period.
+The final estimates are determined in the following manner:
+
+effort = a*KLOCb, in person-months, with KLOC = lines of code, (in thousands), and:
+
+staffing = effort/duration
+
+where a has been adjusted by the factors:
+
+
+Product Attributes
+Required Reliability	1.40 (VH)
+Database Size	1.08 (H )
+Product Complexity	1.30 (VH)
+
+Computer Attributes
+Execution Time Constraint	1.30 (VH)
+Main Storage Constraint	1.06 (H )
+Platform Volatility	1.15 (H )
+Computer Turnaround Time	1.07 (H )
+
+Personnel Attributes
+Analyst Capability	1.19 (L )
+Applications Experience	1.13 (L )
+Programmer Capability	1.17 (L )
+Platform Experience	1.10 (L )
+Programming Language and Tool Experience	1.07 (L )
+
+Project Attributes
+Modern Programming Practices	1.10 (L )
+Use of Software Tools	1.10 (L )
+Required Development Schedule	1.10 (XH)
+
+New (Values are probably wrong)
+Required reusability	1.00 (L )
+Documentation match to life-cycle needs	1.00 (L )
+Personnel continuity	1.10 (L )
+Multisite development	1.05 (H )

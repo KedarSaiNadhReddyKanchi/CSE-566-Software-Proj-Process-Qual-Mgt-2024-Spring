@@ -1,0 +1,23 @@
+Supplier -> Customer
+|         |
+V         ^
+Process 1 -> Process 2 -> Process 3 -> Process 4 -> Process 5
+|           |           |           |           |
+V           V           V           V           V
+CT: 2h      CT: 4h      CT: 8h      CT: 12h     CT: 6h
+LT: 4h      LT: 6h      LT: 10h     LT: 14h     LT: 8h
+TH: 12      TH: 6       TH: 3       TH: 2       TH: 4
+Q: 95%      Q: 90%      Q: 85%      Q: 80%      Q: 95%
+C: $100     C: $200     C: $300     C: $400     C: $500
+
+Process 1: Requirements analysis
+Process 2: Design and development
+Process 3: Testing (outsourced)
+Process 4: Deployment
+Process 5: Maintenance and support
+
+CT: Cycle time (the time it takes to complete one unit of work)
+LT: Lead time (the time it takes from receiving a request to delivering a result)
+TH: Throughput (the number of units of work completed per unit of time)
+Q: Quality (the percentage of units of work that meet the quality standards)
+C: Cost (the amount of money spent per unit of work)

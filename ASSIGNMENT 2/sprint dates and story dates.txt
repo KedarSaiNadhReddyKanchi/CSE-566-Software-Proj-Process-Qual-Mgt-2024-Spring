@@ -1,0 +1,42 @@
+each sprint is for 21 days
+
+The development starts from January 1st 2024. 
+
+Sprint 1
+
+1. Technical Infrastructure Activities
+	a. Establishing the development environment.
+	b. Creating a Database schema for the application.
+	c. Integrate server configurations, and a version control system using Git, hosted on GitHub or GitLab for collaboration. 
+2. Registration of a new user account 
+	a. Set up a secure authentication system.
+3. Confirmation of the account via an email
+4. 
+
+
+
+
+
+doubts I have 
+
+1. the 3 additional activities we create should they be part of any epic ? 
+	a. Can i decide upon any one related activity and place it under one of the defined epics ? 	
+		(i) Like i have decided to integrate an AI-powered recommendation service as a tool so can the activity learning about that tool placed under product search epic?
+2. the project -
+	a. are the user stories to enhance an already built application
+	b. or are the user stories are for a new web application
+	c. the last epic is for a mobile app integration 
+		(i) so are the above epics for a completely new mobile application
+		(ii) or what ? 
+
+3. are expected to add sub tasks to the given user stories ? 
+	a. if so, are those sub-tasks needed to be shown on the timeline?
+
+4. are the following related other activities that I can include in my timeline 
+	a. Technical Infrastructure Activity: Setting Up Development Environment
+	b. Technical Infrastructure Activity: Creating a Database schema for the application.
+	c. Technical Infrastructure Activity: Integrate database, server configurations, and a version control system using Git, hosted on GitHub or GitLab for collaboration.
+	d. Technical Infrastructure Activity: Learning about Elastic Search Engine
+	e. Technical Infrastructure Activity: Implement Continuous Integration/Continuous Deployment (CI/CD) pipelines
+	f. Technical Infrastructure Activity: Integrating the ElasticSearch Engine in the development environment
+	g. Technical Infrastructure Activity: Learning about Recombee: Artificial Intelligence Powered Recommender as a Service
